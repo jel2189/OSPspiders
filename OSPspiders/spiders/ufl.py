@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+import syllascrape
 
 class UFLSpider(scrapy.Spider):
 	name = "ufl"
-	allowed_domains = ["syllabus.ufl.edu"]
+	allowed_domains = ["http://syllabus.ufl.edu"]
 	start_urls = (
-			'syllabus.ufl.edu',
+			'http://syllabus.ufl.edu',
 		     )
 
 	def parse(self, response):
+		css = response.css('html').extract()
+		print(css)
 		return

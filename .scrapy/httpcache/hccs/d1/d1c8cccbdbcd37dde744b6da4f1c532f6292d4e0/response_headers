@@ -1,0 +1,13 @@
+X-Proxy: XX
+X-Varnish-Age: 81828
+Content-Encoding: gzip
+Date: Fri, 30 Sep 2016 19:17:15 GMT
+Cf-Cache-Status: MISS
+Set-Cookie: __cfduid=d472b656caa8a7ac10f6ecbc2314a04791475263035; expires=Sat, 30-Sep-17 19:17:15 GMT; path=/; domain=.hccs.edu; HttpOnly
+Expires: Sat, 01 Oct 2016 19:17:15 GMT
+Vary: Accept-Encoding
+Content-Type: text/plain; charset=utf-8
+Server: cloudflare-nginx
+Cf-Ray: 2eaa0393515c2198-EWR
+Cache-Control: public, max-age=86400
+X-Cache: HIT

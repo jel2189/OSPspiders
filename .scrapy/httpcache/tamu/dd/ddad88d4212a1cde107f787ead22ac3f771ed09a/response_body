@@ -1,0 +1,285 @@
+<script type="text/javascript">
+      function getCookie(name) {
+        var cookie = (name = (document.cookie + ";").match(new RegExp(name + "=.*;"))) && name[0].split(/=|;/)[1];
+        return (cookie === null) ? null : cookie[1];
+      }
+
+      function setCookie(name, value, days) {
+        var e = new Date;
+        e.setDate(e.getDate() + (days || 1));
+        document.cookie = name + "=" + value + ";expires=" + e.toUTCString() + ";path=/;domain=." + document.domain;
+      }
+
+      function clearCookie( name ) {
+        setCookie(name, new Date(), -2);
+      }
+
+      function clearCookies() {
+          var cookies = document.cookie.split(";");
+          for(var i=0; i < cookies.length; i++) {
+              var equals = cookies[i].indexOf("=");
+              var name = equals > -1 ? cookies[i].substr(0, equals).trim() : cookies[i].trim();
+              clearCookie(name);
+              //console.log("deleted cookie:" + name);                          //debugging
+          }
+      }
+
+      if (getCookie("HowdySSBTimeStamp") == null) {
+        clearCookies();
+        setCookie("HowdySSBTimeStamp", new Date(), 1);
+        //console.log("new cookies");                                             //debugging
+      } else {
+       // console.log("old cookies");                                             //debugging
+      }
+      </script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" name="Cache-Control" content="no-cache">
+<meta http-equiv="Cache-Control" name="Cache-Control" content="no-cache, max-age=0, must-revalidate">
+<LINK REL="stylesheet" HREF="/css/web_defaultapp.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="/css/web_defaultprint.css" TYPE="text/css" media="print">
+<title>Class Schedule Search</title>
+<meta http-equiv="Content-Script-Type" name="Default_Script_Language" content="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+window.onunload = function() {submitcount=0;}
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Your changes have already been submitted.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</head>
+<script>
+                    if(self==top){
+                     // this means its in standalone SSB
+                     document.write('<body>');
+                    }
+                    else{ // coming thorugh portal
+                    document.write('<style> DIV.pageheaderdiv1 {margin-top: 10px;} </style>');
+                    document.write('<body class="campuspipeline">'); // class=campuspipeline shows the header image
+                    }
+                 </script>
+<div class="headerwrapperdiv">
+<div class="pageheaderdiv1">
+<a href="#main_content" onMouseover="window.status='Go to Main Content'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true" onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</a>
+</DIV>
+<table  CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox."
+         WIDTH="100%">
+<tr>
+<TD CLASS="pldefault">
+<div class="headerlinksdiv2">
+&nbsp;
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext"></p>
+<SPAN class="pageheaderlinks">
+
+<script>
+if(self==top){
+ // this means its in standalone SSB
+ document.write('<div style="padding-top:1px;color:#F8CF66;margin-bottom:5px;padding-bottom:5px;position:relative;right: -85px;">&nbsp;</div>');
+}
+else{
+  //document.write('<span style="padding-top:25px;color:#F8CF66;margin-bottom:15px;padding-bottom:15px;position:absolute;right: 45px;">');
+  document.write('<div style="padding-top:25px;color:#F8CF66;margin-bottom:5px;padding-bottom:5px;position:relative;right: -85px;">');
+  document.write('<input style="background: none repeat scroll 0% 0% transparent;border: medium none; cursor: pointer; -moz-user-select: text; text-decoration: underline; color:Blue;font: bold 12px,helvetica,sans-serif;" type="button" value="Print" onClick="myprint()" />');
+  //document.write('</span><br clear="all" />');
+  document.write('</div>');
+}
+</script>
+
+</span>
+</TD>
+</tr>
+</table>
+</DIV>
+<div class="pagetitlediv">
+<table  CLASS="plaintable" SUMMARY="This table displays title and static header displays."
+   WIDTH="100%">
+<tr>
+<TD CLASS="pldefault">
+<h2>Class Schedule Search</h2>
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext"></p>
+<div class="staticheaders">
+</div>
+</TD>
+</tr>
+<tr>
+<TD style="background-color:#500000;" width="100%" colSpan=3><img src="/wtlgifs/web_transparent.gif" alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+</tr>
+</table>
+<a name="main_content"></a>
+</DIV>
+<div class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+
+<form action="/pls/PROD/bwckgens.p_proc_term_date" method="post" onSubmit="return checkSubmit()">
+<input type="hidden" name="p_calling_proc" value="bwckschd.p_disp_dyn_sched" />
+<table  CLASS="dataentrytable" summary="This layout table is used for term selection."width="100%"><caption class="captiontext">Search by Term: </caption>
+<tr>
+<TD CLASS="dedefault"><LABEL for=term_input_id><SPAN class="fieldlabeltextinvisible">Term</SPAN></LABEL>
+<select name="p_term" size="1"  ID="term_input_id">
+<OPTION VALUE="">None</OPTION>
+<OPTION VALUE="201631">Fall 2016 - College Station</OPTION>
+<OPTION VALUE="201632">Fall 2016 - Galveston</OPTION>
+<OPTION VALUE="201633">Fall 2016 - Qatar</OPTION>
+<OPTION VALUE="201621">Summer 2016 - College Station (View only)</OPTION>
+<OPTION VALUE="201622">Summer 2016 - Galveston (View only)</OPTION>
+<OPTION VALUE="201623">Summer 2016 - Qatar (View only)</OPTION>
+<OPTION VALUE="201611">Spring 2016 - College Station (View only)</OPTION>
+<OPTION VALUE="201612">Spring 2016 - Galveston (View only)</OPTION>
+<OPTION VALUE="201613">Spring 2016 - Qatar (View only)</OPTION>
+<OPTION VALUE="201641">Full Yr Professional 2016-2017 (View only)</OPTION>
+<OPTION VALUE="201531">Fall 2015 - College Station (View only)</OPTION>
+<OPTION VALUE="201532">Fall 2015 - Galveston (View only)</OPTION>
+<OPTION VALUE="201533">Fall 2015 - Qatar (View only)</OPTION>
+<OPTION VALUE="201521">Summer 2015 - College Station (View only)</OPTION>
+<OPTION VALUE="201522">Summer 2015 - Galveston (View only)</OPTION>
+<OPTION VALUE="201523">Summer 2015 - Qatar (View only)</OPTION>
+<OPTION VALUE="201511">Spring 2015 - College Station (View only)</OPTION>
+<OPTION VALUE="201512">Spring 2015 - Galveston (View only)</OPTION>
+<OPTION VALUE="201513">Spring 2015 - Qatar (View only)</OPTION>
+<OPTION VALUE="201541">Full Yr Professional 2015-2016 (View only)</OPTION>
+<OPTION VALUE="201431">Fall 2014 - College Station (View only)</OPTION>
+<OPTION VALUE="201432">Fall 2014 - Galveston (View only)</OPTION>
+<OPTION VALUE="201433">Fall 2014 - Qatar (View only)</OPTION>
+<OPTION VALUE="201421">Summer 2014 - College Station (View only)</OPTION>
+<OPTION VALUE="201422">Summer 2014 - Galveston (View only)</OPTION>
+<OPTION VALUE="201423">Summer 2014 - Qatar (View only)</OPTION>
+<OPTION VALUE="201411">Spring 2014 - College Station (View only)</OPTION>
+<OPTION VALUE="201412">Spring 2014 - Galveston (View only)</OPTION>
+<OPTION VALUE="201413">Spring 2014 - Qatar (View only)</OPTION>
+<OPTION VALUE="201441">Full Yr Professional 2014-2015 (View only)</OPTION>
+<OPTION VALUE="201331">Fall 2013 - College Station (View only)</OPTION>
+<OPTION VALUE="201332">Fall 2013 - Galveston (View only)</OPTION>
+<OPTION VALUE="201333">Fall 2013 - Qatar (View only)</OPTION>
+<OPTION VALUE="201321">Summer 2013 - College Station (View only)</OPTION>
+<OPTION VALUE="201322">Summer 2013 - Galveston (View only)</OPTION>
+<OPTION VALUE="201323">Summer 2013 - Qatar (View only)</OPTION>
+<OPTION VALUE="201311">Spring 2013 - College Station (View only)</OPTION>
+<OPTION VALUE="201312">Spring 2013 - Galveston (View only)</OPTION>
+<OPTION VALUE="201313">Spring 2013 - Qatar (View only)</OPTION>
+<OPTION VALUE="201341">Full Yr Professional 2013-2014 (View only)</OPTION>
+<OPTION VALUE="201231">Fall 2012 - College Station (View only)</OPTION>
+<OPTION VALUE="201232">Fall 2012 - Galveston (View only)</OPTION>
+<OPTION VALUE="201233">Fall 2012 - Qatar (View only)</OPTION>
+<OPTION VALUE="201221">Summer 2012 - College Station (View only)</OPTION>
+<OPTION VALUE="201222">Summer 2012 - Galveston (View only)</OPTION>
+<OPTION VALUE="201223">Summer 2012 - Qatar (View only)</OPTION>
+<OPTION VALUE="201211">Spring 2012 - College Station (View only)</OPTION>
+<OPTION VALUE="201212">Spring 2012 - Galveston (View only)</OPTION>
+<OPTION VALUE="201213">Spring 2012 - Qatar (View only)</OPTION>
+<OPTION VALUE="201241">Full Yr Professional 2012-2013 (View only)</OPTION>
+<OPTION VALUE="201131">Fall 2011 - College Station (View only)</OPTION>
+<OPTION VALUE="201132">Fall 2011 - Galveston (View only)</OPTION>
+<OPTION VALUE="201133">Fall 2011 - Qatar (View only)</OPTION>
+<OPTION VALUE="201121">Summer 2011 - College Station (View only)</OPTION>
+<OPTION VALUE="201122">Summer 2011 - Galveston (View only)</OPTION>
+<OPTION VALUE="201123">Summer 2011 - Qatar (View only)</OPTION>
+<OPTION VALUE="201111">Spring 2011 - College Station (View only)</OPTION>
+<OPTION VALUE="201112">Spring 2011 - Galveston (View only)</OPTION>
+<OPTION VALUE="201113">Spring 2011 - Qatar (View only)</OPTION>
+<OPTION VALUE="201141">Full Yr Professional 2011-2012 (View only)</OPTION>
+<OPTION VALUE="201031">Fall 2010 - College Station (View only)</OPTION>
+<OPTION VALUE="201032">Fall 2010 - Galveston (View only)</OPTION>
+<OPTION VALUE="201033">Fall 2010 - Qatar (View only)</OPTION>
+<OPTION VALUE="201021">Summer 2010 - College Station (View only)</OPTION>
+<OPTION VALUE="201022">Summer 2010 - Galveston (View only)</OPTION>
+<OPTION VALUE="201023">Summer 2010 - Qatar (View only)</OPTION>
+<OPTION VALUE="201011">Spring 2010 - College Station (View only)</OPTION>
+<OPTION VALUE="201012">Spring 2010 - Galveston (View only)</OPTION>
+<OPTION VALUE="201013">Spring 2010 - Qatar (View only)</OPTION>
+<OPTION VALUE="201041">Full Yr Professional 2010-2011 (View only)</OPTION>
+<OPTION VALUE="200931">Fall 2009 - College Station (View only)</OPTION>
+<OPTION VALUE="200932">Fall 2009 - Galveston (View only)</OPTION>
+<OPTION VALUE="200933">Fall 2009 - Qatar (View only)</OPTION>
+<OPTION VALUE="200941">Full Yr Professional 2009-2010 (View only)</OPTION>
+</select>
+</TD>
+</tr>
+</table>
+<br />
+<br />
+<input type="submit" value="Submit" />
+<input type="reset" VALUE="Reset" />
+</form>
+ <SCRIPT LANGUAGE="JavaScript">
+
+    <!--
+      function myprint() {
+
+        window.print();
+        }
+       //--></script>
+
+<script>
+if(self==top){
+ // this means its in standalone SSB
+}
+else{
+  document.write('<span style="padding-top:25px;color:#F8CF66;margin-bottom:15px;padding-bottom:15px;position:absolute;right: 45px;">');
+  document.write('<input style="background: none repeat scroll 0% 0% transparent;border: medium none; cursor: pointer; -moz-user-select: text; text-decoration: underline; color:Blue;font: bold 12px,helvetica,sans-serif;" type="button" value="Print" onClick="myprint()" />');
+  document.write('</span>');
+}
+</script>
+
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<table  CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page."
+                                             WIDTH="100%" cellSpacing=0 cellPadding=0 border=0><tr><TD style="background-color:#e7ddcb;" width="100%" colSpan=2><img src="/wtlgifs/web_transparent.gif" alt="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD></tr></table>
+<a href="#top" onMouseover="window.status='Skip to top of page'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true" onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</a>
+</DIV>
+<div class="footerbeforediv">
+
+</DIV>
+<div class="footerafterdiv">
+
+</DIV>
+<div class="globalafterdiv">
+
+</DIV>
+<div class="globalfooterdiv">
+
+</DIV>
+<div class="pagefooterdiv">
+</DIV>
+<div class="poweredbydiv">
+</DIV>
+<DIV class="div1"></DIV>
+<DIV class="div2"></DIV>
+<DIV class="div3"></DIV>
+<DIV class="div4"></DIV>
+<DIV class="div5"></DIV>
+<DIV class="div6"></DIV>
+<span style="font-size:9px; float:left;">
+2
+</span>
+</body>
+</html>

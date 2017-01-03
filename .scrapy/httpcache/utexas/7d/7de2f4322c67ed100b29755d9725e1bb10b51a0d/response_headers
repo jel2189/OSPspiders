@@ -1,0 +1,8 @@
+Server: Apache/2.2.15 (Red Hat)
+Date: Thu, 13 Oct 2016 03:11:16 GMT
+Cache-Control: max-age=0
+Expires: Thu, 13 Oct 2016 03:11:16 GMT
+Content-Type: text/html; charset=iso-8859-1
+Location: https://login.utexas.edu:443/login/cdcservlet?goto=https%3A%2F%2Futdirect.utexas.edu%3A443%2Frobots.txt&RequestID=1512334247&MajorVersion=1&MinorVersion=0&ProviderID=https%3A%2F%2Futdirect.utexas.edu%3A443%2Famagent%3FRealm%3D%2Fadmin%2Futdirect-realm&IssueInstant=2016-10-12T22%3A11%3A16Z
+Set-Cookie: utlogin-prod=;Path=/;Secure;HttpOnly
+Set-Cookie: NSC_vue-qspe_443=ffffffffc3a018e645525d5f4f58455e445a4a42378b;expires=Thu, 13-Oct-2016 03:24:38 GMT;path=/;secure;httponly

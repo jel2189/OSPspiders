@@ -1,0 +1,9 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://login.utexas.edu:443/login/cdcservlet?goto=https%3A%2F%2Futdirect.utexas.edu%3A443%2Frobots.txt&amp;RequestID=489026633&amp;MajorVersion=1&amp;MinorVersion=0&amp;ProviderID=https%3A%2F%2Futdirect.utexas.edu%3A443%2Famagent%3FRealm%3D%2Fadmin%2Futdirect-realm&amp;IssueInstant=2016-10-12T22%3A01%3A58Z">here</a>.</p>
+<hr>
+<address>Apache/2.2.15 (Red Hat) Server at utdirect.utexas.edu Port 80</address>
+</body></html>

@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<html>
+<head id="ctl00_Head1"><title>
+	Home - Online Course Syllabi
+</title>
+<link rel='stylesheet' type='text/css' href='/csshandler.ashx?skin=UFRedesign&amp;s=49&amp;v=2.4.0.2&amp;sv=00000000-0000-0000-0000-000000000000' />
+
+    <!-- Begin UF custom styles -->
+    <link rel="apple-touch-icon" href="Data/Sites/49/skins/UFRedesign/css/images/apple-touch-icon.png" />
+    <!-- End UF custom styles -->
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml" title="Online Course Syllabi Site Search" href="http://syllabus.ufl.edu/SearchEngineInfo.ashx" />
+    <!--[if IE]>
+	<meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" /><meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+	<![endif]-->
+    
+<link rel='shortcut icon' href='/Data/Sites/49/skins/UFRedesign/favicon.ico' />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" ></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js" type="text/javascript" ></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = $(location).attr('href').toLowerCase();
+            var edit = 'htmledit.aspx';
+
+            if (url.indexOf(edit) > -1) {
+
+                $("LINK[href*='/_UFSiteGlobalIncludes/_CSS/jquery-ui-1.8.16.custom.css']").remove();
+            }
+
+            var links = $(".breadcrumbs a");
+
+            $(".breadcrumbs").empty();
+            $(".breadcrumbs").append(links);
+        })
+        
+    </script>
+    
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/jquery.cycle.min.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/autoclear.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/jquery.hoverIntent.minified.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/institutional-nav.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/PrettyPhoto/js/jquery.prettyPhoto.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/script.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/ufl-menu.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/feature-slider.js'></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/Modernizr/modernizr2.min.js'></script>
+    <script type='text/javascript' src="/ClientScript/UFTemplate-js/css3-mediaqueries.js"></script>
+    <script type='text/javascript' src='/ClientScript/UFTemplate-js/doubletaptogo.min.js'></script>
+    <script id="responsiveJS" type='text/javascript' src='/ClientScript/UFTemplate-js/responsiveUF.js'></script>
+    <!-- UF Template JS Files Begin -->
+    <!--[if lt IE 7 ]>
+        <script src="js/dd_belatedpng.js"></script>
+        <script> DD_belatedPNG.fix('img, .png_bg'); </script>
+        <![endif]-->
+    <!-- UF Template JS Files End -->
+    <script type="text/javascript">
+        window.onload = function () {
+            $(".zebra tr:nth-child(odd)").addClass("odd");
+        };
+
+        $(function () {
+            $("#breadcrumb").each(function () {
+
+                if ($(this).text() == " &gt;") {
+                    $(this).text("");
+                }
+            });
+        });
+    </script>
+
+<link rel='canonical' href='http://syllabus.ufl.edu/home.aspx' /></head>
+<body id="ctl00_Body" class="pagebody fullSite">
+    
+    <!-- Mobile Specifics -->
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<div id="mobileMeta">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;  user-scalable=no" />
+    <!--<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0;" />-->
+    <!--  <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />-->
+</div>
+
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/reset.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/nav-combined.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/featured-widgets.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/grid.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/typography.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/jquery-ui-1.8.16.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/_UFSiteGlobalIncludes/_CSSReduced/responsive.css"/>
+<script type="text/javascript" src="https://secure.aa.ufl.edu/shared/uftemplate/_library/js/nav-institutional2.js?v=3"></script>
+
+<ul class="screen-reader-text">
+	<li><a href="http://assistive.usablenet.com/tt/http://www.ufl.edu" accesskey="t" title="Text-only version of this website">Text-only version of this website</a></li>
+	<li><a href="#skip-nav-anchor" accesskey="s" title="Skip navigation">Skip navigation</a></li>
+	<li><a href="http://www.ufl.edu" accesskey="1" title="Home page">Home page</a></li>
+	<li><a href="http://www.ufl.edu/#secondary" accesskey="2" title="what's new">What's new</a></li>
+	<li><a href="#search" accesskey="4" title="Search">Search</a></li>
+	<li><a href="mailto:webmaster@ufl.edu" accesskey="6" title="Contact Webmaster">Contact Webmaster</a></li>
+	<li><a href="#footer-links" accesskey="8" title="Website policies">Website policies</a></li>
+	<li><a href="http://www.ufl.edu/disability/" accesskey="0" title="Disability services">Disability services</a></li>
+</ul>
+
+<!--BEGIN HEADER-->
+<header role="banner">
+	<div class="container">
+
+	<!--HEADER TITLE-->
+		<div id="header-title" class="alpha omega span-15">
+                    <a href="http://syllabus.ufl.edu" title="Go Home">
+                        <h3 id="header-parent-organization-logo" class="ir uf">University of Florida</h3>
+                        <div id="header-title-text-right" class="alpha omega span-12 uf">
+                            <h1 id="header-title-text" class="palatino">Online Course Syllabi</h1>
+                            <h2 id="header-title-tagline" class="palatino">UNIVERSITY <em>of</em> FLORIDA</h2>
+                        </div>
+                    </a>
+                </div>
+	<!--HEADER SOCIAL MEDIA-->	 
+		<!--<ul id="header-social">
+			<li><a href="http://www.facebook.com/uflorida/" class="facebook ir">Facebook</a></li>
+			<li><a href="http://twitter.com/uflorida/" class="twitter ir">Twitter</a></li>
+			<li><a href="http://www.youtube.com/user/universityofflorida/" class="youtube ir">Youtube</a></li>
+		</ul>-->
+
+	<!--HEADER SEARCH-->
+		<div id="header-search-wrap">
+			<div id="searchform-wrap">
+				<form method="get" id="search" name="search" action="http://search.ufl.edu/search" role="search">
+					<input type="hidden" name="site" id="site" value="http://syllabus.ufl.edu"  />
+					<input type="hidden" name="source" id="source" value="web" />
+					<label for="header-search-field" style="display:none">Search this site</label><input type="text" value="Search This Site" id="header-search-field" name="query" onfocus="if(this.value=='Search This Site') this.value='';" />
+					<input type="image" src="http://cms.aa.ufl.edu/_Images/header-search-btn-orange.jpg" id="header-search-btn"  alt="Search Button" name="sa" />
+				</form>
+			</div>
+		</div>	
+
+		<!--<a id="header-actionitem" href="/apply">Apply</a>-->
+
+	</div>
+</header>
+<!--END HEADER--><form method="post" action="/" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="2" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA1OTAyNzk1MQ9kFgJmD2QWAgIDD2QWAgIED2QWDgIHDw8WAh4HVmlzaWJsZWhkZAIIDw8WAh8AaGRkAgkPDxYGHghDc3NDbGFzcwUXbGVmdHNpZGUgc3Bhbi02IGNtc3pvbmUeBF8hU0ICAh8AaGRkAgoPDxYEHwEFOWFydC1sYXlvdXQtY2VsbCBhcnQtY29udGVudC13aWRlIGNlbnRlci1ub21hcmdpbnMgY21zem9uZR8CAgJkFgICAw9kFgJmD2QWAgICD2QWAgIDD2QWAgIDD2QWAgIBD2QWBAIBDw8WAh8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh4KQ2FsbGJhY2tJRAUpY3RsMDAkbWFpbkNvbnRlbnQkY3RsMDAkUmF0aW5nJFVzZXJSYXRpbmdkAg0PDxYCHwBoZBYCAgEPZBYCZg9kFgICBQ9kFgJmDxYCHwMFL2N0bDAwJG1haW5Db250ZW50JGN0" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="bDAwJFJhdGluZ0JvdHRvbSRVc2VyUmF0aW5nZAILDw8WBh8BBRhzcGFuLTYgcmlnaHRzaWRlIGNtc3pvbmUfAgICHwBoZGQCDg9kFgRmDxYCHgRUZXh0BRJQYWdlIExhc3QgVXBkYXRlZDpkAgIPFgIfBAUTOC81LzIwMTYgMzo0OTowMyBQTWQCEA8PFgIfAGhkZBgBBRVjdGwwMCRTaXRlTWVudTEkY3RsMDAPD2QFJDMxZTllMzAxLWQxOTQtNGZhZS05N2NjLTZkNDdjOTY4MGUzY2QeTEBmNb8asoDswfS1KPg23PVG+g==" />
+
+
+<script src="/ScriptResource.axd?d=5TDfizBZv3HAaBjh9QInnSQYxRhs6NGmcNvDYrIRO5LQU71gFjeXXTGZlHDgCVUpBn0dDroajGy1cVK40UE8_W2uADRIAh5-EEy_ON5J_AteI2tVNanHjr-N4thky8dP7Rqlw07n9-NHvbUuL6066oIBFn8YZXOqDjwxzyrS49N-kKuLqYTtMH6xvhUa5Xr7s-79KYnRkUNRabcoJeevKLbtJhOJEFYzz8Lx_-27HZ2OC9Qa7ezmP1jHm8GsmaC6Vl__IIRhUDncOVItqVGmAf6gNvYRszEoW6zN484kOHEPqXodyXx-D94WpYyv_7cjESKcRw9-Jys8AViE1dOFKyHo0CuERmjOgxOAqEtT_NU6vLRp1oMPXHee7G7B_RvnIf_86Q2" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIDWQ+m/OC0IiRPYsSD3m0HluqpT+SRPGaj6Cukd6ylp57X8c1axOSunno65ChLtaORop8p" />
+    
+    
+    
+    
+    <!--BEGIN PRIMARY NAVIGATION-->
+    <nav id='primary-nav' class='white' role='navigation'>
+       
+        
+
+<div class="AspNet-Menu-Horizontal" id="ctl00_SiteMenu1_ctl00">
+		<ul class="AspNet-Menu">
+			<li class="AspNet-Menu-Leaf AspNet-Menu-SelectedLeaf">
+				<a href="/home.aspx" class="AspNet-Menu AspNet-Menu-SelectedLeaf">
+					<span>Home</span></a>
+			</li>
+		</ul>
+
+</div>
+
+
+                    </nav>
+    <!--END PRIMARY NAVIGATION-->
+    <div id="feature-wrap" class="">
+        <div id="feature" class="container" role="main">
+        </div>
+        <!-- end #feature -->
+    </div>
+    <!-- end #feature-wrap -->
+    <nav id="breadcrumb">
+        <div class="container">
+        
+        </div>
+        </nav>
+    <div id="content-wrap">
+        <div id="content-shadow">
+            <div id="content" class="container">
+                <article id="main-content" role="main"> 
+   <div class="topnav"> 
+   <ul>
+    
+            
+            
+            
+            </ul>
+              </div>
+               <div id="SiteDisplayOptions"> </div> 
+
+        
+	    <div id="ctl00_divCenter" class="art-layout-cell art-content-wide center-nomargins cmszone">
+	
+         
+	     
+            
+	     
+<div id='ctl00_mainContent_ctl00_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_mainContent_ctl00_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module4662" class=" moduletitle">Course Syllabi on the Web</h2>
+<div id='ctl00_mainContent_ctl00_pnlOuterBody' class=''>
+
+<div id='ctl00_mainContent_ctl00_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_mainContent_ctl00_divContent' class=''>
+<p><em>All University of Florida course syllabi should be made available on the Web in accordance with the <a href="/Data/Sites/18/media/policies/syllabus-policy-current.pdf" target="_blank">UF policy on course syllabi</a>. The following provides links to syllabi on the Web. (In cases where colleges do not have a dedicated site for syllabi or for the professional schools, there is a link to the main college page.)</em></p>
+
+<ul>
+	<li><strong><a href="http://cals.ufl.edu/students/syllabus.php" target="_blank">Agricultural and Life Sciences, College of</a></strong></li>
+	<li><strong><a href="http://warrington.ufl.edu/academics/syllabi.asp" target="_blank">Business Administration, Warrington College of</a></strong></li>
+	<li><a href="http://www.dental.ufl.edu/" target="_blank"><strong>Dentistry, College of</strong></a>
+	<ul>
+		<li><a href="http://dental.ufl.edu/education/dmd-program/curriculum-overview/" target="_blank">Curriculum Overview</a></li>
+	</ul>
+	</li>
+	<li><a href="http://www.dcp.ufl.edu/academics/syllabi" target="_blank"><strong>Design, Construction &amp; Planning, College of</strong></a></li>
+	<li><strong><a href="http://education.ufl.edu/course-syllabi/" target="_blank">Education, College of</a></strong></li>
+	<li><strong><a href="https://connect.ufl.edu/eng/syllabi/SitePages/Syllabi.aspx" target="_blank">Engineering, College of</a></strong></li>
+	<li><strong><a href="http://www.arts.ufl.edu/students/syllabi.aspx" target="_blank">Fine Arts, College of</a></strong></li>
+	<li><a href="http://hhp.ufl.edu/index.php/current-students/current-students/course-syllabi/" target="_blank"><strong>Health &amp; Human Performance, College of</strong> </a></li>
+	<li><a href="http://www.jou.ufl.edu/academics/course-syllabi/" target="_blank"><strong>Journalism and Communications, College of</strong></a></li>
+	<li><a href="http://www.latam.ufl.edu/academics/las-courses" target="_blank"><strong>Latin American Studies</strong></a></li>
+	<li><strong><a href="http://www.law.ufl.edu/" target="_blank">Law, Levin College of</a></strong></li>
+	<li><a href="http://www.clas.ufl.edu/students/syllabi.html" target="_blank"><strong>Liberal Arts and Sciences, College of</strong></a></li>
+	<li><strong><a href="http://med.ufl.edu/" target="_blank">Medicine, College of</a></strong></li>
+	<li><strong><a href="http://nursing.ufl.edu/students/course-outlines/" target="_blank">Nursing, College of</a></strong></li>
+	<li><strong><a href="http://cop.ufl.edu/education/student-affairs/doctor-of-pharmacy-curriculum/" target="_blank">Pharmacy, College of</a></strong></li>
+	<li><strong><a href="http://phhp.ufl.edu/" target="_blank">Public Health and Health Professions</a> </strong>
+	<ul>
+		<li><a href="http://bsch.phhp.ufl.edu/academics/sbs-courses/" target="_blank">Behavioral Sciences and Community Health</a></li>
+		<li><a href="http://biostat.ufl.edu/education/course-descriptions/" target="_blank">Biostatistics</a></li>
+		<li><a href="http://chp.phhp.ufl.edu/academics/course-syllabi/" target="_blank">Clinical and Health Psychology</a></li>
+		<li><a href="http://epidemiology.phhp.ufl.edu/about/class-syllabi/" target="_blank">Epidemiology</a></li>
+		<li><a href="http://egh.phhp.ufl.edu/resources/courses/" target="_blank">Environmental &amp; Global Health</a></li>
+		<li><a href="http://bhs.phhp.ufl.edu/coursework/course-syllabi/" target="_blank">Health Science</a></li>
+		<li><a href="http://hsrmp.phhp.ufl.edu/courses/course-syllabi/" target="_blank">Health Services Research, Management and Policy</a></li>
+		<li><a href="http://ot.phhp.ufl.edu/academics/mot/prospective-students/course-sequence/#syllabi" target="_blank">Occupational Therapy</a></li>
+		<li><a href="http://pt.phhp.ufl.edu/dpt-program/program-overview/curriculum/dpt-course-descriptions/" target="_blank">Physical Therapy</a></li>
+		<li><a href="http://slhs.phhp.ufl.edu/academics/course-descriptions/" target="_blank">Speech, Language, and Hearing Sciences</a></li>
+	</ul>
+	</li>
+	<li><strong><a href="http://vetmed.ufl.edu/" target="_blank">Veterinary Medicine, College of</a></strong></li>
+</ul>
+
+</div>
+<input type="hidden" name="ctl00$mainContent$ctl00$hdnIsDirty" id="ctl00_mainContent_ctl00_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_mainContent_ctl00_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_mainContent_ctl00_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+           
+          
+	    
+</div>
+        
+	    
+        </article>
+            </div>
+        </div>
+    </div>
+    <!--BEGIN FOOTER-->
+<footer role="contentinfo">	
+	<div id="institutional-footer">
+			<div class="container">
+				<span class="uf-monogram"></span>
+				<p>&nbsp;</p>
+				<!--Footer Links and Info-->
+				<div id="footer-links" class="span-24 black-25">
+					<div class="footer_logo">
+						<a href="http://www.ufl.edu/"><img src="/_UFSiteGlobalIncludes/UFsignatureThemelineBlue.png" alt="University of Florida" /></a>
+					</div>
+					<ul>
+						<li><a href="http://www.aa.ufl.edu/">Provost</a></li>
+						<li><a href="default.aspx">Home</a></li>
+						<li><a class="sitemaplink" href="/SiteMap.aspx">Site Map</a></li>
+						<li><a href='/?skin=printerfriendly' rel='nofollow'>Printable View</a></li>
+						<li><a href="mailto:akf@aa.ufl.edu?subject=Online Course Syllabus">Contact Us</a> </li>
+					</ul>
+					<ul>
+						<li><a href="http://news.ufl.edu">News</a></li>
+						<li><a href="http://calendar.ufl.edu">Calendar</a></li>
+						<li><a href="http://www.ufl.edu/websites">Web Site Listing</a></li>
+						<li><a href="http://www.questions.ufl.edu">Ask UF</a></li>
+						<li><a href="http://tss.it.ufl.edu/web-policy">Web & Privacy Policies</a></li>
+						<li><a href="http://www.ufl.edu/disability/">Disability Services</a></li>
+						<li><a href="http://regulations.ufl.edu">Regulations</a></li>
+						<li><a href="https://phonebook.ufl.edu/">UF Phonebook</a></li>
+					</ul>
+					<ul>
+						<li>&copy; 2016 <a href="http://www.ufl.edu/">University of Florida</a>, Gainesville, FL 32611; (352) 392-3261</li>
+				            <li>AP-SRV-WEB-CL2</li>
+
+						<li>Page Last Updated:
+8/5/2016 3:49:03 PM</li>
+					</ul>
+
+					<ul><li><a href='http://www.mojoportal.com?utm_source=usersite&amp;utm_medium=referral&amp;utm_campaign=poweredbymojo' >Powered by mojoPortal</a> |
+						This page uses <a href="http://www.google.com/analytics/">Google Analytics</a> (<a href="http://www.google.com/intl/en_ALL/privacypolicy.html">Google Privacy Policy</a>)</li>
+						</ul>
+				</div><!-- end #footer-links -->
+			</div><!-- end footer container -->
+		</div><!-- end institutional footer container -->
+</footer>
+<!--END FOOTER-->
+
+<!-- GOES UNDER FOOTER - MOJOPORTAL SPECIFIC -->
+<script type="text/javascript">
+	function HideMenuToolbar() {
+		$("#toolbar").fadeOut(); $("#toolbarbut").fadeIn("slow");
+	}
+	function ShowMenuToolbar() {
+		$("#toolbar").fadeIn(); $("#toolbarbut").fadeOut("slow");
+	}
+	$(document).ready(function () {
+		$("span.downarr a").click(function () { HideMenuToolbar(); Set_Cookie('openstate', 'closed') });
+		$("span.showbar a").click(function () { ShowMenuToolbar(); Set_Cookie('openstate', 'open') });
+		$("span.downarr a, span.showbar a").click(function () { return false; });
+		var openState = Get_Cookie('openstate');
+		if (openState != null) {
+			if (openState == 'closed') { HideMenuToolbar(); }
+			if (openState == 'open') { ShowMenuToolbar(); }
+		}
+	});	
+</script>
+    
+    
+    <!-- END TEMPLATE -->
+    
+<script type="text/javascript">Sys.Application.add_load(function() { var form = Sys.WebForms.PageRequestManager.getInstance()._form; form._initialAction = form.action = window.location.href; }); </script>
+<script type="text/javascript" > $('div.mojo-accordion').accordion({ collapsible: true, active: false });$('div.mojo-accordion-nh').accordion({heightStyle:'content',animate:{opacity:'toggle',duration:'400'}, collapsible: true, active: false }); $('div.mojo-tabs').tabs({}); $('input.jqbutton').button(); $('.jqtt').tooltip(); $('.faqs dd').hide();$('.faqs dt').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}).click(function(){ $(this).next().slideToggle('normal'); });  $("a.unclickable").click(function(){ return false; });</script></form>
+</body>
+</html>

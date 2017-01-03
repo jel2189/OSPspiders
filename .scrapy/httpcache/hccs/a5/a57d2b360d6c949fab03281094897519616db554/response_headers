@@ -1,0 +1,12 @@
+Age: 0
+Server: cloudflare-nginx
+Content-Encoding: gzip
+Content-Type: text/html;charset=utf-8
+Expires: Sat, 1 Jan 2000 00:00:00 GMT
+X-Cache: MISS
+X-Ua-Compatible: IE=edge,chrome=1
+Date: Tue, 08 Nov 2016 06:21:33 GMT
+X-Varnish-Age: 0
+Content-Language: en
+X-Proxy: XX
+Cf-Ray: 2fe6ece5000b21aa-EWR

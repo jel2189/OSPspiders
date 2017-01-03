@@ -1,0 +1,26 @@
+Date: Thu, 13 Oct 2016 03:11:21 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=UTF-8
+Pragma: no-cache
+X-Frame-Options: DENY
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=login.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlogin-core.its.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlc-p02-admin.its.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlc-p04-admin.its.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlc-p01-admin.its.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlc-p03-admin.its.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlogin-api.its.utexas.edu;secure;httponly
+Set-Cookie: AMAuthCookie-prod=AQIC5wM2LY4Sfcyps7fcdFKUWRgAWaFBKGauSJZ0kWX1a-I.*AAJTSQACMDIAAlNLABQtNzA0NjM5NzU5MDYxODI5MDQzMQACUzEAAjA2*;path=/;domain=utlogin-admin.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=login.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlogin-core.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlc-p02-admin.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlc-p04-admin.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlc-p01-admin.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlc-p03-admin.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlogin-api.its.utexas.edu;secure;httponly
+Set-Cookie: amlbcookie=1384477825.47873.0000;path=/;domain=utlogin-admin.its.utexas.edu;secure;httponly
+Set-Cookie: JSESSIONID=83D43057709F796636632A8FAD7CF4F5; Path=/openam; Secure
+Set-Cookie: UTLOGIN_LOGOUT_LOGOUT=""; Domain=.utexas.edu; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: UTLOGIN_LOGOUT_GOTO=""; Domain=.utexas.edu; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Am_Client_Type: genericHTML

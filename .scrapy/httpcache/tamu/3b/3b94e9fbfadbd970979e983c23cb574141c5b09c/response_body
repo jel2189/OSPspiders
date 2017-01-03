@@ -1,0 +1,29 @@
+<html>
+<head>
+        <title>Howdy Security Block</title>
+        <meta name="robots" content="noindex, nofollow">
+        <script src="https://Howdy.tamu.edu/unavailable/jquery.tools.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://Howdy.tamu.edu/unavailable/howdy_maintenance.css"/>
+</head>
+
+<body>
+<div id="wrapper">
+        <div id="header">
+                <div class="headerRight">
+                <img src="https://Howdy.tamu.edu/unavailable/tamu_logo.png" alt="Texas A&amp;M University" height="42" width="209"></div>
+        </div>
+
+        <!--  start content div -->
+        <div class="content" id="content">
+
+         Sorry, our security safeguards have detected some invalid syntax in this request.  You may check the URL and all input<br> for superfluous special characters or clear your cookies and restart your browser to see if that corrects the issue.<br> If the problem persists please report it to Help Desk Central with the incident ID 17083653361962263101 <br>
+           Thank you for your help.
+
+        </div>
+        <!--  end content div -->
+
+</div><!--  end big wrapper div -->
+
+
+</body>
+</html>

@@ -15,6 +15,10 @@ Lonestar - in progress
 
 UFL - marked as easy, created for practice
 
+ASU - functioning
+UCF - not necessary
+PSU - functioning
+
 ## Getting started
 Create a Python 3 environment and initialize it
 ```
